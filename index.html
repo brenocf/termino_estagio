@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <title>Previsão de Término do Estágio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>QUANTO TEMPO FALTA PARA TERMINAR O MEU ESTÁGIO?</h1>
+    </header>
+    <main>
+        <section class="curso">
+            <h2 class="titulo_curso">QUAL O SEU CURSO?</h2>
+                <div class="botoes_curso">
+                    <div class="edificacoes_moveis">
+                        <div class="edificacoes">EDIFICAÇÕES</div>
+                        <div class="moveis">MÓVEIS</div>
+                    </div>
+                    <div class="eletrotecnica_financas">
+                        <div class="eletrotecnica">ELETROTÉCNICA</div>
+                        <div class="financas">FINANÇAS</div>
+                    </div>
+                </div>
+        </section>
+        <section class="preparacao">
+            <h2 class="titulo_preparacao">VOCÊ CONCLUIU A PREPARAÇÃO PARA O ESTÁGIO?</h2>    
+                <div class="botoes_preparacao">
+                    <div class="sim_preparacao">SIM</div>
+                    <div class="nao_preparacao">NÃO</div>
+                </div>
+        </section>
+        <section class="projeto">
+            <h2 class="titulo_projeto">VOCÊ CONCLUIU O PROJETO SOCIAL?</h2>    
+                <div class="botoes_projeto">
+                    <div class="sim_projeto">SIM</div>
+                    <div class="nao_projeto">NÃO</div>
+                </div>
+        </section>
+        <section class="mediacao">
+            <h2 class="titulo_mediacao">VOCÊ PARTIPOU DE QUANTAS MEDIAÇÕES?</h2>    
+            <div class="botoes_mediacao">
+                <div class="botoes_mediacao_01_02">
+                    <div class="mediacao_01">01</div>
+                    <div class="mediacao_02">02</div>
+                </div>
+                <div class="botoes_mediacao_03_04">
+                    <div class="mediacao_03">03</div>
+                    <div class="mediacao_04">04</div>
+                </div>
+            </div> 
+        </section>
+        <section class="projeto">
+            <h2 class="horas_campo">QUANTAS HORAS EM CAMPO VOCÊ JÁ FEZ?</h2> 
+            <input type="number" class="horas" max="300">   
+        </section>
+        <section class="mes">
+            <h2 class="titulo_mes">EM QUE MÊS VOCÊ ESTÁ?</h2>    
+            <div class="botoes_mes">
+                <div class="botoes_agosto_setembro_outubro">    
+                    <div class="agosto">AGOSTO</div>
+                    <div class="setembro">SETEMBRO</div>
+                    <div class="outubro">OUTUBRO</div>
+                </div>
+                <div class="botoes_novembro_dezembro_janeiro">    
+                    <div class="novembro">NOVEMBRO</div>
+                    <div class="dezembro">DEZEMBRO</div>
+                    <div class="janeiro">JANEIRO</div>
+                </>
+            </div>
+        </section>
+        <section class="resultado">
+            <div class="previsao">
+                <div class="horas_faltam">FALTAM <input type="number" class="caixa_horas">HORAS</div>
+                <div class="dias_faltam">FALTAM <input type="number" class="caixa_horas">DIAS</div>
+                <div class="dias_faltam">VOCÊ CONCLUIU <input type="number" class="caixa_horas">% DO TOTAL</div>
+            </div>
+            <div class="previsao_termino">PREVISÃO DE TÉRMINO <input type="date" class="caixa_horas"></div>
+        </section>
+    </main>
+    <footer>
+        <h2 class="titulo_footer">PROJETADO POR BRENO FIGUEIREDO</h2>
+    </footer>
+</body>
+</html>

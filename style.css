@@ -1,0 +1,355 @@
+*, *::after, *::before{
+    padding: 1em;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    font-family: 'Inconsolata';
+    font-style: normal;
+}
+
+h1{
+    text-align: center;
+}
+
+h2{
+    text-align: center;
+}
+
+header{
+    background: rgba(18, 18, 18, 0.18);
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 50px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.2px;
+}
+
+.botoes_curso{
+    display: flex;
+}
+
+.edificacoes{
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 50px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.2px;
+
+    background: #0AB3FC;
+    width: 354px;
+    height: 154px;
+}
+
+.moveis{
+    font-family: 'Inconsolata';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 50px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.2px;
+
+    background: #FF5555;
+    width: 354px;
+    height: 154px;
+}
+
+.eletrotecnica{
+    font-family: 'Inconsolata';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 50px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.2px;
+
+    background: #FAFF00;
+    width: 354px;
+    height: 154px;
+}
+
+.financas{
+    font-family: 'Inconsolata';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 50px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.2px;
+
+    background: #1EFC0A;
+    width: 354px;
+    height: 154px;
+}
+
+.botoes_preparacao{
+    display: flex;
+}
+
+.sim_preparacao{
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 50px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.2px;
+
+    background: #0AB3FC;
+    width: 354px;
+    height: 154px;
+}
+
+.nao_preparacao{
+    font-family: 'Inconsolata';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 50px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.2px;
+
+    background: #FF5555;
+    width: 354px;
+    height: 154px;
+}
+
+.botoes_projeto{
+    display: flex;
+}
+
+.sim_projeto{
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 50px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.2px;
+
+    background: #0AB3FC;
+    width: 354px;
+    height: 154px;
+}
+
+.nao_projeto{
+    font-family: 'Inconsolata';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 50px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.2px;
+
+    background: #FF5555;
+    width: 354px;
+    height: 154px;
+}
+
+.botoes_mediacao{
+    display: flex;
+}
+
+.mediacao_01{
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 50px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.2px;
+
+    background: #0AB3FC;
+    width: 354px;
+    height: 154px;
+}
+
+.mediacao_02{
+    font-family: 'Inconsolata';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 50px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.2px;
+
+    background: #FF5555;
+    width: 354px;
+    height: 154px;
+}
+
+.mediacao_03{
+    font-family: 'Inconsolata';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 50px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.2px;
+
+    background: #FAFF00;
+    width: 354px;
+    height: 154px;
+}
+
+.mediacao_04{
+    font-family: 'Inconsolata';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 50px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.2px;
+
+    background: #1EFC0A;
+    width: 354px;
+    height: 154px;
+}
+
+.horas{
+    width: 500px;
+    height: 100px;
+    align-items: center;
+
+    background: rgba(0, 0, 0, 0.02);
+    border: 2px solid #000000;
+}
+
+.botoes_mes{
+    display: flex;
+}
+
+.agosto{
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 50px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.2px;
+
+    background: #0AB3FC;
+    width: 354px;
+    height: 154px;
+}
+
+.setembro{
+    font-family: 'Inconsolata';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 50px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.2px;
+
+    background: #AAFF55;
+    width: 354px;
+    height: 154px;
+}
+
+.outubro{
+    font-family: 'Inconsolata';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 50px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.2px;
+
+    background: #FF6DF0;
+    width: 354px;
+    height: 154px;
+}
+
+.novembro{
+    font-family: 'Inconsolata';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 50px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.2px;
+
+    background: #7C89FF;
+    width: 354px;
+    height: 154px;
+}
+
+.dezembro{
+    font-family: 'Inconsolata';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 50px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.2px;
+
+    background: #6DFFF6;
+    width: 354px;
+    height: 154px;
+}
+
+.janeiro{
+    font-family: 'Inconsolata';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 50px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.2px;
+
+    background: #FF7C7C;
+    width: 354px;
+    height: 154px;
+}
+
+.resultado{
+    text-align: center;
+}
+
+.previsao{
+    display: flex;
+}
+
+footer{
+    background: rgba(18, 18, 18, 0.18);
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 50px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.2px;
+}
